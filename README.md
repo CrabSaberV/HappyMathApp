@@ -3,12 +3,13 @@
 #### Description
 一款完整的android app。（产生于软件构造课程的作业）
 时间有限，能力有限，扩展性一般，但也尽可能解耦，文件目录较为清晰
+ :blush:  :blush:  :blush:  :blush: 
 
 > 单纯爱好，作为 demo 可用于简单学习
 
 > Me ---- gitee: https://gitee.com/CrabSaber/HappyMathApp
 
-#### Features
+#### Features  :tw-1f44c: 
 1. 项目完整，直接clone可用
 2. /app/release/ 中有已构建好的 app
 3. 软件界面风格简洁高调（使用了 bootstrap 风格）
@@ -32,17 +33,17 @@ Software architecture description
 
 不多说上图
 <br/>
-![1](./screenshot/HappyMath_1.png" ")
+![1](screenshot/HappyMath_1.png)
 ****
-![2](screenshot/HappyMath_2.png" ")
+![2](screenshot/HappyMath_2.png)
 ****
-![3](.\screenshot\HappyMath (3).jpg)
+![3](screenshot/HappyMath_3.png)
 ****
-![4](.\screenshot\HappyMath (4).jpg)
+![4](screenshot/HappyMath_4.png)
 ****
-![5](.\screenshot\HappyMath (5).jpg)
+![5](screenshot/HappyMath_5.png)
 ****
-![6](./screenshot/HappyMath (6).jpg)
+![6](screenshot/HappyMath_6.png)
 
 #### Contribution
 
