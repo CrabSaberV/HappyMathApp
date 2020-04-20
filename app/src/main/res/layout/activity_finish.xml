@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/exercise_bar"
+    android:gravity="center">
+
+
+    <com.beardedhen.androidbootstrap.AwesomeTextView
+        android:id="@+id/text_result_ratio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+
+        app:bootstrapText="结果比值"
+        app:bootstrapBrand="secondary"
+
+        android:textSize="@dimen/bootstrap_h3_text_size"/>
+
+    <com.beardedhen.androidbootstrap.AwesomeTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        app:bootstrapText="@string/text_title_score"
+        app:bootstrapBrand="secondary"
+
+        android:textSize="@dimen/bootstrap_h1_text_size"/>
+
+    <com.beardedhen.androidbootstrap.AwesomeTextView
+        android:id="@+id/text_result_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        app:bootstrapText="分数"
+        app:bootstrapBrand="secondary"
+
+        android:textSize="@dimen/bootstrap_h1_text_size"/>
+
+    <com.beardedhen.androidbootstrap.AwesomeTextView
+        android:id="@+id/text_result_tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+
+        app:bootstrapText="哈哈哈"
+        app:bootstrapBrand="warning"
+
+        android:textSize="@dimen/bootstrap_h3_text_size"/>
+
+
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/btn_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+
+        app:bootstrapText="@string/btn_return"
+        app:bootstrapBrand="warning"
+        app:bootstrapSize="lg"
+        app:roundedCorners="true" />
+
+
+</LinearLayout>

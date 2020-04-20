@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">HappyMath</string>
+
+    <string name="splash_welcome">欢迎</string>
+    <string name="splash_appname">数学使我快乐</string>
+
+    <string name="main_title">练习模式</string>
+    <string name="main_type_add">加法试题</string>
+    <string name="main_type_sub">减法试题</string>
+    <string name="main_type_mix">混合习题</string>
+
+    <string name="exercise_doing">练习中</string>
+    <string name="exercise_id">习题:</string>
+    
+    <string name="btn_previous_exercise">上一题</string>
+    <string name="btn_next_exercise">下一题</string>
+
+    <string name="btn_submit">提交</string>
+
+    <string name="tx_answer">答案：</string>
+
+    <string name="btn_return">返回</string>
+    <string name="text_title_score">分数</string>
+
+    <string name="text_title_addnum">生成习题的数量</string>
+
+    <string name="btn_ok">OK</string>
+    <string name="btn_finish">完成</string>
+
+    <string name="tx_tip_100">！战神！</string>
+    <string name="tx_tip_99_90">哇哦，大神！</string>
+    <string name="tx_tip_89_80">很棒哟!</string>
+    <string name="tx_tip_79_70">再接再厉！</string>
+    <string name="tx_tip_69_60">道路尚远，还需努力！</string>
+    <string name="tx_tip_59_50">还行</string>
+    <string name="tx_tip_49_40">你或许觉得很枯燥</string>
+    <string name="tx_tip_39_30">请再细心且要耐心</string>
+    <string name="tx_tip_29_10">渍渍渍...</string>
+    <string name="tx_tip_9_0">。。。。。。。。</string>
+
+
+    <string name="toast_tip_nullnum">不能为空！！</string>
+    <string name="toast_tip_nullanswer">此题必做！！</string>
+    <string name="toast_tip_exercise_alldone">"题目全部完成！"</string>
+    <string name="toast_tip_exercise_has_null">还有题没做完啊！！！！</string>
+
+</resources>

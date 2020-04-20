@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <com.beardedhen.androidbootstrap.AwesomeTextView
+        android:id="@+id/exercise_id"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:bootstrapText="@string/exercise_id"
+        android:textSize="@dimen/bootstrap_h3_text_size"/>
+
+
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+
+        <!--题目-->
+        <com.beardedhen.androidbootstrap.AwesomeTextView
+            android:id="@+id/exercise_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="测试 + 测试 = "
+            android:textSize="@dimen/bootstrap_h3_text_size"/>
+
+        <!--输入框-->
+
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/answer_edittext"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/bootstrap_gray"
+
+            android:inputType="numberSigned"
+
+            app:bootstrapSize="md"
+            app:bootstrapBrand="info"
+            app:roundedCorners="true" />
+
+        <com.beardedhen.androidbootstrap.AwesomeTextView
+            android:id="@+id/text_tf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+
+            app:fontAwesomeIcon="fa_check_circle"
+            app:bootstrapBrand="success"
+            android:text="ok"
+            android:textSize="30dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+    <com.beardedhen.androidbootstrap.AwesomeTextView
+        android:id="@+id/tx_answer"
+        android:layout_weight="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tx_answer"
+        android:textSize="20sp"/>
+
+
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="80dp"
+
+        app:bootstrapText="@string/btn_submit"
+        app:roundedCorners="true"
+        app:bootstrapBrand="primary"
+        app:showOutline="false"
+        app:bootstrapSize="lg"/>
+
+
+
+</LinearLayout>

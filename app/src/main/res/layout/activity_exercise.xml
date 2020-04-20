@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+
+    <com.beardedhen.androidbootstrap.BootstrapLabel
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:bootstrapBrand="primary"
+        app:bootstrapHeading="h3"
+        app:roundedCorners="false"
+        android:text="@string/exercise_doing">
+
+    </com.beardedhen.androidbootstrap.BootstrapLabel>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recvclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/fab_submit_s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|center_vertical"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="200dp"
+
+        android:src="@drawable/ic_done"
+
+        app:fab_colorNormal="@color/splash_title"
+        app:fab_colorPressed="@color/bootstrap_brand_success"
+        app:fab_colorRipple="@color/bootstrap_brand_danger"
+
+        app:fab_shadowRadius="4dp"
+        app:fab_showAnimation="@anim/fab_scale_down"
+        app:fab_size="normal"
+
+        />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
