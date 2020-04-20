@@ -32,9 +32,9 @@ Software architecture description
 
 不多说上图
 <br/>
-![1](./screenshot/HappyMath (1).png)
+![1](./screenshot/HappyMath_1.png" ")
 ****
-![2](.\screenshot\HappyMath (2).jpg)
+![2](screenshot/HappyMath_2.png" ")
 ****
 ![3](.\screenshot\HappyMath (3).jpg)
 ****
