@@ -31,17 +31,18 @@ Software architecture description
 #### Instructions
 
 不多说上图
-![1](screenshot\HappyMath (1).jpg)
+<br/>
+![1](.\screenshot\HappyMath (1).jpg)
 ****
-![2](screenshot\HappyMath (2).jpg)
+![2](.\screenshot\HappyMath (2).jpg)
 ****
-![3](screenshot\HappyMath (3).jpg)
+![3](.\screenshot\HappyMath (3).jpg)
 ****
-![4](screenshot\HappyMath (4).jpg)
+![4](.\screenshot\HappyMath (4).jpg)
 ****
-![5](screenshot\HappyMath (5).jpg)
+![5](.\screenshot\HappyMath (5).jpg)
 ****
-![6](screenshot\HappyMath (6).jpg)
+![6](./screenshot/HappyMath (6).jpg)
 
 #### Contribution
 
