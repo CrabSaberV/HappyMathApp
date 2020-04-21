@@ -8,6 +8,7 @@
     <string name="main_type_add">加法试题</string>
     <string name="main_type_sub">减法试题</string>
     <string name="main_type_mix">混合习题</string>
+    <string name="main_about">关于</string>
 
     <string name="exercise_doing">练习中</string>
     <string name="exercise_id">习题:</string>

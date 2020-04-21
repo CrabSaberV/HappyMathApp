@@ -55,6 +55,17 @@
             app:showOutline="false"
             app:bootstrapBrand="danger"/>
 
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:id="@+id/btn_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_about"
+            android:layout_marginTop="50dp"
+            app:bootstrapSize="lg"
+            app:roundedCorners="true"
+            app:showOutline="true"
+            app:bootstrapBrand="secondary"/>
+
     </LinearLayout>
 
 

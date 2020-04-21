@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bootstrap_gray_lightest"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.beardedhen.androidbootstrap.AwesomeTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+
+            android:text="About"
+            android:textSize="@dimen/bootstrap_h1_text_size"
+            />
+
+        <com.beardedhen.androidbootstrap.AwesomeTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+
+            android:text="IF you like this program and want to learn Android. "
+            android:textSize="@dimen/bootstrap_h5_text_size"/>
+
+
+        <com.beardedhen.androidbootstrap.AwesomeTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:text="Resources is in"
+            android:textSize="@dimen/bootstrap_h5_text_size"/>
+
+
+        <com.beardedhen.androidbootstrap.AwesomeTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:text="github:"
+            app:fontAwesomeIcon="fa_github"
+            android:textSize="@dimen/bootstrap_h5_text_size"/>
+
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:id="@+id/btn_github"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            app:bootstrapText="Github"
+            app:showOutline="true"/>
+
+
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:id="@+id/btn_gitee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+
+            app:bootstrapText=" Gitee "
+            app:showOutline="true"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:id="@+id/btn_return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            app:bootstrapText="@string/btn_return" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

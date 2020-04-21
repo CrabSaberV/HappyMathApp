@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.beardedhen.androidbootstrap.BootstrapButton;
+import com.sorftbuild.program.view.AboutActivity;
 import com.sorftbuild.program.view.ExerciseActivity;
 import com.sorftbuild.program.view.SkipActivity;
 
@@ -25,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         BootstrapButton btnAdd = findViewById(R.id.btn_ex_add);
         BootstrapButton btnSub = findViewById(R.id.btn_ex_sub);
         BootstrapButton btnMix = findViewById(R.id.btn_ex_mix);
+        BootstrapButton btnAbout = findViewById(R.id.btn_about);
 
         btnAdd.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -44,6 +46,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 toOtherActivity(2);
+            }
+        });
+
+        btnAbout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, AboutActivity.class));
             }
         });
     }
